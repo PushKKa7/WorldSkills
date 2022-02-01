@@ -26,23 +26,8 @@ header a {
 
 header a.right{
     float: right;
-}
-
-
-.header__button {
-    background-color: #4CAF50;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 14px 32px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 150px;
-    cursor: pointer;
-    border: none;
 }
-
 
 .sidenav {
     height: 100%;
@@ -94,22 +79,23 @@ header a.right{
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
   .column {
     flex: 100%;
     max-width: 100%;
-    padding: 0 4px;
   }
   
   .column img {
-    margin-top: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    margin-right: 2rem;
     vertical-align: middle;
-    width: 33%;
-    height: 16rem;
+    width: 33rem;
+    height: 20rem;
     vertical-align: middle;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
   }
 
 ul {
